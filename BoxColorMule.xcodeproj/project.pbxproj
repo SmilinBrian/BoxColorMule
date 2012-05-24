@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D366FF00156EDBBE0048E0CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D366FEFF156EDBBE0048E0CF /* Cocoa.framework */; };
+		D366FF0A156EDBBE0048E0CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D366FF08156EDBBE0048E0CF /* InfoPlist.strings */; };
+		D366FF0C156EDBBE0048E0CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D366FF0B156EDBBE0048E0CF /* main.m */; };
+		D366FF10156EDBBE0048E0CF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D366FF0E156EDBBE0048E0CF /* Credits.rtf */; };
+		D366FF13156EDBBE0048E0CF /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D366FF12156EDBBE0048E0CF /* BCAppDelegate.m */; };
+		D366FF16156EDBBE0048E0CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D366FF14156EDBBE0048E0CF /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D366FEFB156EDBBE0048E0CF /* BoxColorMule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxColorMule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D366FEFF156EDBBE0048E0CF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D366FF02156EDBBE0048E0CF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D366FF03156EDBBE0048E0CF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D366FF04156EDBBE0048E0CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D366FF07156EDBBE0048E0CF /* BoxColorMule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoxColorMule-Info.plist"; sourceTree = "<group>"; };
+		D366FF09156EDBBE0048E0CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D366FF0B156EDBBE0048E0CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D366FF0D156EDBBE0048E0CF /* BoxColorMule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoxColorMule-Prefix.pch"; sourceTree = "<group>"; };
+		D366FF0F156EDBBE0048E0CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D366FF11156EDBBE0048E0CF /* BCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppDelegate.h; sourceTree = "<group>"; };
+		D366FF12156EDBBE0048E0CF /* BCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppDelegate.m; sourceTree = "<group>"; };
+		D366FF15156EDBBE0048E0CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D366FEF8156EDBBE0048E0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D366FF00156EDBBE0048E0CF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D366FEF0156EDBBD0048E0CF = {
+			isa = PBXGroup;
+			children = (
+				D366FF05156EDBBE0048E0CF /* BoxColorMule */,
+				D366FEFE156EDBBE0048E0CF /* Frameworks */,
+				D366FEFC156EDBBE0048E0CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D366FEFC156EDBBE0048E0CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D366FEFB156EDBBE0048E0CF /* BoxColorMule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D366FEFE156EDBBE0048E0CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D366FEFF156EDBBE0048E0CF /* Cocoa.framework */,
+				D366FF01156EDBBE0048E0CF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D366FF01156EDBBE0048E0CF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D366FF02156EDBBE0048E0CF /* AppKit.framework */,
+				D366FF03156EDBBE0048E0CF /* CoreData.framework */,
+				D366FF04156EDBBE0048E0CF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D366FF05156EDBBE0048E0CF /* BoxColorMule */ = {
+			isa = PBXGroup;
+			children = (
+				D366FF11156EDBBE0048E0CF /* BCAppDelegate.h */,
+				D366FF12156EDBBE0048E0CF /* BCAppDelegate.m */,
+				D366FF14156EDBBE0048E0CF /* MainMenu.xib */,
+				D366FF06156EDBBE0048E0CF /* Supporting Files */,
+			);
+			path = BoxColorMule;
+			sourceTree = "<group>";
+		};
+		D366FF06156EDBBE0048E0CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D366FF07156EDBBE0048E0CF /* BoxColorMule-Info.plist */,
+				D366FF08156EDBBE0048E0CF /* InfoPlist.strings */,
+				D366FF0B156EDBBE0048E0CF /* main.m */,
+				D366FF0D156EDBBE0048E0CF /* BoxColorMule-Prefix.pch */,
+				D366FF0E156EDBBE0048E0CF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D366FEFA156EDBBE0048E0CF /* BoxColorMule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D366FF19156EDBBE0048E0CF /* Build configuration list for PBXNativeTarget "BoxColorMule" */;
+			buildPhases = (
+				D366FEF7156EDBBE0048E0CF /* Sources */,
+				D366FEF8156EDBBE0048E0CF /* Frameworks */,
+				D366FEF9156EDBBE0048E0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxColorMule;
+			productName = BoxColorMule;
+			productReference = D366FEFB156EDBBE0048E0CF /* BoxColorMule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D366FEF2156EDBBD0048E0CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BC;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D366FEF5156EDBBD0048E0CF /* Build configuration list for PBXProject "BoxColorMule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D366FEF0156EDBBD0048E0CF;
+			productRefGroup = D366FEFC156EDBBE0048E0CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D366FEFA156EDBBE0048E0CF /* BoxColorMule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D366FEF9156EDBBE0048E0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D366FF0A156EDBBE0048E0CF /* InfoPlist.strings in Resources */,
+				D366FF10156EDBBE0048E0CF /* Credits.rtf in Resources */,
+				D366FF16156EDBBE0048E0CF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D366FEF7156EDBBE0048E0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D366FF0C156EDBBE0048E0CF /* main.m in Sources */,
+				D366FF13156EDBBE0048E0CF /* BCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D366FF08156EDBBE0048E0CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D366FF09156EDBBE0048E0CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D366FF0E156EDBBE0048E0CF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D366FF0F156EDBBE0048E0CF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D366FF14156EDBBE0048E0CF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D366FF15156EDBBE0048E0CF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D366FF17156EDBBE0048E0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D366FF18156EDBBE0048E0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D366FF1A156EDBBE0048E0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoxColorMule/BoxColorMule-Prefix.pch";
+				INFOPLIST_FILE = "BoxColorMule/BoxColorMule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D366FF1B156EDBBE0048E0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoxColorMule/BoxColorMule-Prefix.pch";
+				INFOPLIST_FILE = "BoxColorMule/BoxColorMule-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D366FEF5156EDBBD0048E0CF /* Build configuration list for PBXProject "BoxColorMule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D366FF17156EDBBE0048E0CF /* Debug */,
+				D366FF18156EDBBE0048E0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D366FF19156EDBBE0048E0CF /* Build configuration list for PBXNativeTarget "BoxColorMule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D366FF1A156EDBBE0048E0CF /* Debug */,
+				D366FF1B156EDBBE0048E0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D366FEF2156EDBBD0048E0CF /* Project object */;
+}
